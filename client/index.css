@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feed{
+    width: 100vh;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.feed p{
+    background-color: lightgray;
+}
