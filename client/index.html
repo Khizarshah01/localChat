@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Local Chat</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- every msg append in this div --> 
+        <div class="feed" id="msg-box">
+
+        </div>
+        <form action="http://127.0.0.1:8080/sent" method="post">
+            <input type="text" name="input">
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
